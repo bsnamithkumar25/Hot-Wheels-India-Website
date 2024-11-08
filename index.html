@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hot Wheels India</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hot Wheels India</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="cart.html">Cart <span id="cart-count">(0)</span></a>
+        <a href="login.html"></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-slider">
+          <img
+            src="images/hero1.jpg"
+            alt="Hot Wheels Hero Image 1"
+            class="hero-slide"
+          />
+          <img
+            src="images/hero2.jpg"
+            alt="Hot Wheels Hero Image 2"
+            class="hero-slide"
+          />
+          <img
+            src="images/hero3.jpg"
+            alt="Hot Wheels Hero Image 3"
+            class="hero-slide"
+          />
+          <img
+            src="images/hero4.jpg"
+            alt="Hot Wheels Hero Image 4"
+            class="hero-slide"
+          />
+          <img
+            src="images/hero5.jpg"
+            alt="Hot Wheels Hero Image 5"
+            class="hero-slide"
+          />
+        </div>
+        <div class="hero-content">
+          <h2>Rev Up Your Collection!</h2>
+          <p>
+            Explore the world of Hot Wheels and discover thrilling cars to add
+            to your collection.
+          </p>
+          <a href="products.html" class="btn">Shop Now</a>
+        </div>
+      </section>
+
+      <section class="promotional-banner">
+        <h2>Special Offer!</h2>
+        <p>
+          Get <strong>20% off</strong> on your first order! Use code
+          <strong>HOT20</strong> at checkout.
+        </p>
+      </section>
+
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+          <div class="product">
+            <img src="images/product1.jpg" alt="Hot Wheels '15 Ford Mustang" />
+            <h3>Hot Wheels '15 Ford Mustang</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'15 Ford Mustang', 299, 'images/product1.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product2.jpg"
+              alt="Hot Wheels '19 Ford Ranger Raptor"
+            />
+            <h3>Hot Wheels '19 Ford Ranger Raptor</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'19 Ford Ranger Raptor', 349, 'images/product2.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product3.jpg"
+              alt="Hot Wheels '70 Chevy Camaro RS"
+            />
+            <h3>Hot Wheels '70 Chevy Camaro RS</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'70 Chevy Camaro RS', 399, 'images/product3.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product4.jpg"
+              alt="Hot Wheels Lamborghini Aventador"
+            />
+            <h3>Hot Wheels Lamborghini Aventador</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Lamborghini Aventador', 449, 'images/product4.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product5.jpg" alt="Hot Wheels Porsche 911 GT3" />
+            <h3>Hot Wheels Porsche 911 GT3</h3>
+            <p>₹499</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Porsche 911 GT3', 499, 'images/product5.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product6.jpg" alt="Hot Wheels Tesla Roadster" />
+            <h3>Hot Wheels Tesla Roadster</h3>
+            <p>₹599</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Tesla Roadster', 599, 'images/product6.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="customer-reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-container">
+          <blockquote>
+            <p>"I love my Hot Wheels collection! The variety is amazing!"</p>
+            <footer>- Namith</footer>
+          </blockquote>
+          <blockquote>
+            <p>"Fast shipping and great customer service. Highly recommend!"</p>
+            <footer>- Puneeth</footer>
+          </blockquote>
+          <blockquote>
+            <p>"The best place to find rare Hot Wheels cars!"</p>
+            <footer>- Krishang</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated on new arrivals and exclusive offers!</p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <section class="social-media">
+        <h2>Follow Us</h2>
+        <p>
+          Connect with us on social media for the latest news and promotions!
+        </p>
+        <a
+          href="https://www.facebook.com/hotwheels"
+          target="_blank"
+          aria-label="Facebook"
+          >Facebook</a
+        >
+        <a
+          href="https://www.instagram.com/hotwheels"
+          target="_blank"
+          aria-label="Instagram"
+          >Instagram</a
+        >
+        <a
+          href="https://twitter.com/hotwheels"
+          target="_blank"
+          aria-label="Twitter"
+          >Twitter</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Hot Wheels India. All rights reserved.</p>
+      <p>
+        Developed by
+        <a
+          href="https://namithkumar.tech"
+          target="_blank"
+          style="color: #ff6600; text-decoration: none"
+          >Namith Kumar</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

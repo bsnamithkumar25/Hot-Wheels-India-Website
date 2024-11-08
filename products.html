@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hot Wheels Products</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hot Wheels India</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="cart.html">Cart <span id="cart-count">(0)</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products">
+        <center><h2>Our Products</h2></center>
+
+        <div class="product-list">
+          <div class="product">
+            <img
+              src="images/product1.jpg"
+              alt="Hot Wheels '16 Ford Mustang GT"
+            />
+            <h3>Hot Wheels '16 Ford Mustang GT</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'16 Ford Mustang GT', 299, 'images/product1.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product2.jpg" alt="Hot Wheels '19 Ford Ranger" />
+            <h3>Hot Wheels '19 Ford Ranger</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'19 Ford Ranger', 349, 'images/product2.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product3.jpg" alt="Hot Wheels '70 Chevy Camaro" />
+            <h3>Hot Wheels '70 Chevy Camaro</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'70 Chevy Camaro', 399, 'images/product3.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product4.jpg"
+              alt="Hot Wheels Lamborghini Aventador"
+            />
+            <h3>Hot Wheels Lamborghini Aventador</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Lamborghini Aventador', 449, 'images/product4.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product5.jpg" alt="Hot Wheels Porsche 911 GT3" />
+            <h3>Hot Wheels Porsche 911 GT3</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Porsche 911 GT3', 299, 'images/product5.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product6.jpg" alt="Hot Wheels Tesla Roadster" />
+            <h3>Hot Wheels Tesla Roadster</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Tesla Roadster', 349, 'images/product6.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product7.jpg" alt="Hot Wheels Jaguar F-Type" />
+            <h3>Hot Wheels Jaguar F-Type</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Jaguar F-Type', 399, 'images/product7.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product8.jpg" alt="Hot Wheels Bugatti Veyron" />
+            <h3>Hot Wheels Bugatti Veyron</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Bugatti Veyron', 449, 'images/product8.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product9.jpg" alt="Hot Wheels '69 Dodge Charger" />
+            <h3>Hot Wheels '69 Dodge Charger</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'69 Dodge Charger', 299, 'images/product9.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product10.jpg"
+              alt="Hot Wheels '83 Chevy Silverado"
+            />
+            <h3>Hot Wheels '83 Chevy Silverado</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels \'83 Chevy Silverado', 349, 'images/product10.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product11.jpg" alt="Hot Wheels McLaren P1" />
+            <h3>Hot Wheels McLaren P1</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels McLaren P1', 399, 'images/product11.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product12.jpg" alt="Hot Wheels 2020 BMW M4" />
+            <h3>Hot Wheels 2020 BMW M4</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 2020 BMW M4', 449, 'images/product12.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product13.jpg" alt="Hot Wheels 2020 Corvette" />
+            <h3>Hot Wheels 2020 Corvette</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 2020 Corvette', 299, 'images/product13.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product14.jpg" alt="Hot Wheels Pagani Zonda" />
+            <h3>Hot Wheels Pagani Zonda</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Pagani Zonda', 349, 'images/product14.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product15.jpg"
+              alt="Hot Wheels Lamborghini Huracan"
+            />
+            <h3>Hot Wheels Lamborghini Huracan</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Lamborghini Huracan', 399, 'images/product15.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product16.jpg" alt="Hot Wheels Ferrari FXX" />
+            <h3>Hot Wheels Ferrari FXX</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Ferrari FXX', 449, 'images/product16.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product17.jpg" alt="Hot Wheels Audi R8" />
+            <h3>Hot Wheels Audi R8</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Audi R8', 299, 'images/product17.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product18.jpg" alt="Hot Wheels Aston Martin DB5" />
+            <h3>Hot Wheels Aston Martin DB5</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Aston Martin DB5', 349, 'images/product18.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product19.jpg" alt="Hot Wheels Ford GT" />
+            <h3>Hot Wheels Ford GT</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Ford GT', 399, 'images/product19.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product20.jpg" alt="Hot Wheels Datsun 240Z" />
+            <h3>Hot Wheels Datsun 240Z</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Datsun 240Z', 449, 'images/product20.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product21.jpg" alt="Hot Wheels Mazda RX-7" />
+            <h3>Hot Wheels Mazda RX-7</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Mazda RX-7', 349, 'images/product21.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product22.jpg" alt="Hot Wheels 68' Chevy Nova" />
+            <h3>Hot Wheels 68' Chevy Nova</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 68 Chevy Nova', 399, 'images/product22.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product23.jpg" alt="Hot Wheels 77 Dodge Van" />
+            <h3>Hot Wheels '77 Dodge Van</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 77 Dodge Van', 449, 'images/product23.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product24.jpg"
+              alt="Hot Wheels Mercedes-Benz AMG GT"
+            />
+            <h3>Hot Wheels MTV</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels MTV', 299, 'images/product24.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product25.jpg"
+              alt="Hot Wheels Pagani Huayra Roadster"
+            />
+            <h3>Hot Wheels Pagani Huayra Roadster</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Pagani Huayra Roadster', 349, 'images/product25.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product26.jpg"
+              alt="Hot Wheels Ford Mustang Boss 302"
+            />
+            <h3>Hot Wheels '69 Ford Mustang Boss 302</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 69 Ford Mustang Boss 302', 399, 'images/product26.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product27.jpg" alt="Hot Wheels Tesla Model S" />
+            <h3>Hot Wheels Tesla Model S</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Tesla Model S', 449, 'images/product27.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product28.jpg"
+              alt="Hot Wheels Dodge Challenger SRT"
+            />
+            <h3>Hot Wheels Dodge Challenger SRT</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Dodge Challenger SRT', 299, 'images/product28.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product29.jpg" alt="Hot Wheels Ford Bronco" />
+            <h3>Hot Wheels Ford Bronco</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Ford Bronco', 349, 'images/product29.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product30.jpg"
+              alt="Hot Wheels Mercedes-Benz 280 SEL 4.5"
+            />
+            <h3>Hot Wheels '72 Mercedes-Benz 280 SEL 4.5</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 72 Mercedes-Benz 280 SEL 4.5', 399, 'images/product30.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product31.jpg" alt="Hot Wheels 65 Mustang" />
+            <h3>Hot Wheels '65 Mustang</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 65 Mustang', 449, 'images/product31.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product32.jpg" alt="Hot Wheels 58 Corvette" />
+            <h3>Hot Wheels '58 Corvette</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 58 Corvette', 299, 'images/product32.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product33.jpg" alt="Hot Wheels 57 Ponital" />
+            <h3>Hot Wheels '57 Ponital</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 57 Ponital', 349, 'images/product33.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product34.jpg"
+              alt="Hot Wheels Alfa Romeo Giulia"
+            />
+            <h3>Hot Wheels 67 Ford GT40</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 67 Ford GT40', 399, 'images/product34.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product35.jpg"
+              alt="Hot Wheels Ford F-150 Raptor"
+            />
+            <h3>Hot Wheels Ford F-150 Raptor</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Ford F-150 Raptor', 449, 'images/product35.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product36.jpg" alt="Hot Wheels '64 Chevy Impala" />
+            <h3>Hot Wheels '64 Chevy Impala</h3>
+            <p>₹299</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 64 Chevy Impala', 299, 'images/product36.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product37.jpg" alt="Hot Wheels 58 Dodge Dart" />
+            <h3>Hot Wheels '58 Dodge Dart</h3>
+            <p>₹349</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels 58 Dodge Dart', 349, 'images/product37.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img
+              src="images/product38.jpg"
+              alt="Hot Wheels Aston Martin Vantage"
+            />
+            <h3>Hot Wheels Aston Martin Vantage</h3>
+            <p>₹399</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Aston Martin Vantage', 399, 'images/product38.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product39.jpg" alt="Hot Wheels Bugatti Chiron" />
+            <h3>Hot Wheels '76 Greenwood Corvette</h3>
+            <p>₹449</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Greenwood Corvette', 449, 'images/product39.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="product">
+            <img src="images/product40.jpg" alt="Hot Wheels Koenigsegg Jesko" />
+            <h3>Hot Wheels Audi Q3</h3>
+            <p>₹499</p>
+            <button
+              class="add-to-cart-btn"
+              onclick="addToCart('Hot Wheels Audi Q3', 499, 'images/product40.jpg')"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+      <p>&copy; 2024 Hot Wheels India. All rights reserved.</p>
+      <p>
+        Developed by
+        <a
+          href="https://namithkumar.tech"
+          target="_blank"
+          style="color: #ff6600; text-decoration: none"
+          >Namith Kumar</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
